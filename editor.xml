@@ -1,5 +1,6 @@
 <application>
   <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="Droid Sans Mono" />
     <option name="LINE_SPACING" value="1.4" />
   </component>
   <component name="EditorSettings">
