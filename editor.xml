@@ -1,4 +1,7 @@
 <application>
+  <component name="DefaultFont">
+    <option name="LINE_SPACING" value="1.4" />
+  </component>
   <component name="EditorSettings">
     <option name="SHOW_BREADCRUMBS" value="false" />
   </component>
