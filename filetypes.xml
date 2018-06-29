@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="chat" type="PHP" />
+      <mapping pattern="bullscows" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
