@@ -13,8 +13,9 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.php</mask>
-    <mask>*.scss</mask>
     <mask>.php</mask>
     <mask>.vue</mask>
+    <mask>.scss</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
