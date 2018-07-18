@@ -1,0 +1,22 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="translate">
+      <action id="EditorCopy" />
+      <action id="EditorDuplicate" />
+      <action id="EditorPaste" />
+      <action id="$Undo" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorPaste" />
+      <action id="$Undo" />
+      <action id="$Undo" />
+      <action id="EditorPaste" />
+      <action id="EditorCopy" />
+      <action id="EditorPaste" />
+      <action id="EditorRight" />
+      <action id="EditorRightWithSelection" />
+      <action id="SelectNextOccurrence" />
+      <action id="EditorEscape" />
+    </macro>
+  </component>
+</application>
