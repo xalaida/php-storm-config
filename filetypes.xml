@@ -2,6 +2,8 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="kill" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
