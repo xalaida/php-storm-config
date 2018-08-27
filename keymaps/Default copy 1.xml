@@ -1,5 +1,0 @@
-<keymap version="1" name="Default copy 1" parent="Default for XWin">
-  <action id="EditorBackSpace">
-    <keyboard-shortcut first-keystroke="back_space" />
-  </action>
-</keymap>
