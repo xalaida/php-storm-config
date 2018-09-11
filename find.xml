@@ -17,7 +17,7 @@
     <mask>.vue</mask>
     <mask>*.vue</mask>
     <mask>*.php</mask>
-    <mask>!*.scss</mask>
     <mask>*.scss</mask>
+    <mask>!*.scss</mask>
   </component>
 </application>
