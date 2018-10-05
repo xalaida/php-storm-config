@@ -60,6 +60,7 @@
       <option name="schema-control" value="MANUAL" />
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />
+      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="redshift">
       <artifact name="Redshift" use="true" />
