@@ -1,4 +1,23 @@
 <templateSet group="Zen HTML">
+  <template name="label" value="&lt;label for=&quot;$VAR0$&quot;&gt;$END$&lt;/label&gt;" description="&lt;label for=&quot;...&quot;&gt;...&lt;/label&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="select" value="&lt;select name=&quot;$VAR0$&quot; id=&quot;$VAR1$&quot;&gt;$END$&lt;/select&gt;" description="&lt;select name=&quot;...&quot; id=&quot;...&quot;&gt;...&lt;/select&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="option" value="&lt;option value=&quot;$VAR0$&quot;&gt;$END$&lt;/option&gt;" description="&lt;option value=&quot;...&quot;&gt;...&lt;/option&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
   <template name="!!!" value="&lt;!doctype html&gt;" description="&lt;!doctype html&gt;" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JSP" value="true" />
@@ -63,12 +82,6 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="a" value="&lt;a href=&quot;$VAR0$&quot;&gt;$END$&lt;/a&gt;" description="&lt;a href=&quot;...&quot;&gt;...&lt;/a&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSP" value="true" />
-    </context>
-  </template>
   <template name="a:link" value="&lt;a href=&quot;http://$VAR0$&quot;&gt;$END$&lt;/a&gt;" description="&lt;a href=&quot;http://...&quot;&gt;...&lt;/a&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
@@ -116,11 +129,6 @@
     </context>
   </template>
   <template name="frame" value="&lt;frame&gt;" description="&lt;frame&gt;" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JSP" value="true" />
-    </context>
-  </template>
-  <template name="hr" value="&lt;hr&gt;" description="&lt;hr&gt;" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JSP" value="true" />
     </context>
@@ -236,11 +244,6 @@
   </template>
   <template name="meta:redirect" value="&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0; url=$URL$&quot;&gt;" description="&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0; url=http://example.com&quot;&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="URL" expression="" defaultValue="&quot;http://example.com&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSP" value="true" />
-    </context>
-  </template>
-  <template name="style" value="&lt;style&gt;$END$&lt;/style&gt;" description="&lt;style&gt;...&lt;/style&gt;" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JSP" value="true" />
     </context>
@@ -497,12 +500,6 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="form" value="&lt;form action=&quot;$VAR0$&quot;&gt;$END$&lt;/form&gt;" description="&lt;form action=&quot;...&quot;&gt;...&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSP" value="true" />
-    </context>
-  </template>
   <template name="form:get" value="&lt;form action=&quot;$VAR0$&quot; method=&quot;get&quot;&gt;$END$&lt;/form&gt;" description="&lt;form action=&quot;...&quot; method=&quot;get&quot;&gt;...&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
@@ -515,8 +512,8 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="label" value="&lt;label for=&quot;$VAR0$&quot;&gt;$END$&lt;/label&gt;" description="&lt;label for=&quot;...&quot;&gt;...&lt;/label&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  <template name="input" value="&lt;input type=&quot;$VAR0$&quot;&gt;" description="&lt;input type=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="true" />
     </context>
@@ -751,13 +748,6 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="select" value="&lt;select name=&quot;$VAR0$&quot; id=&quot;$VAR1$&quot;&gt;$END$&lt;/select&gt;" description="&lt;select name=&quot;...&quot; id=&quot;...&quot;&gt;...&lt;/select&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSP" value="true" />
-    </context>
-  </template>
   <template name="select:disabled" value="&lt;select name=&quot;$VAR0$&quot; id=&quot;$VAR1$&quot; disabled&gt;$END$&lt;/select&gt;" description="&lt;select name=&quot;...&quot; id=&quot;...&quot; disabled&gt;...&lt;/select&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -768,12 +758,6 @@
   <template name="select:d" value="&lt;select name=&quot;$VAR0$&quot; id=&quot;$VAR1$&quot; disabled&gt;$END$&lt;/select&gt;" description="&lt;select name=&quot;...&quot; id=&quot;...&quot; disabled&gt;...&lt;/select&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSP" value="true" />
-    </context>
-  </template>
-  <template name="option" value="&lt;option value=&quot;$VAR0$&quot;&gt;$END$&lt;/option&gt;" description="&lt;option value=&quot;...&quot;&gt;...&lt;/option&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="true" />
     </context>
