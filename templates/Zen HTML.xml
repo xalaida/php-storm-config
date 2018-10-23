@@ -4,13 +4,4 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="textarea" value="&lt;textarea name=&quot;$VAR0$&quot; id=&quot;$VAR1$&quot; cols=&quot;$COL$&quot; rows=&quot;$ROWS$&quot;&gt;$END$&lt;/textarea&gt;" description="&lt;textarea name=&quot;...&quot; id=&quot;...&quot; cols=&quot;30&quot; rows=&quot;10&quot;&gt;...&lt;/textarea&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <variable name="COL" expression="" defaultValue="&quot;30&quot;" alwaysStopAt="true" />
-    <variable name="ROWS" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSP" value="true" />
-    </context>
-  </template>
 </templateSet>
