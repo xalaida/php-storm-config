@@ -11,4 +11,9 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="bootform" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;address&quot; class=&quot;col-form-label&quot;&gt;Address&lt;/label&gt;&#10;    &lt;input id=&quot;address&quot; class=&quot;form-control{{ $errors-&gt;has('address') ? ' is-invalid' : '' }}&quot; name=&quot;address&quot; value=&quot;{{ old('address', $university-&gt;profile-&gt;address) }}&quot; required&gt;&#10;&#10;    @if ($errors-&gt;has('address'))&#10;        &lt;span class=&quot;invalid-feedback&quot;&gt;&lt;strong&gt;{{ $errors-&gt;first('address') }}&lt;/strong&gt;&lt;/span&gt;&#10;    @endif&#10;&lt;/div&gt;" description="Make bootstrap 4 form group" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
