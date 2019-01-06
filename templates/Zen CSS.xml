@@ -2136,7 +2136,4 @@
     <variable name="OTHER_RULESETS" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="!" value="!important" description="!important" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
 </templateSet>
