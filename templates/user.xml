@@ -11,7 +11,30 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="bootform" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;address&quot; class=&quot;col-form-label&quot;&gt;Address&lt;/label&gt;&#10;    &lt;input id=&quot;address&quot; class=&quot;form-control{{ $errors-&gt;has('address') ? ' is-invalid' : '' }}&quot; name=&quot;address&quot; value=&quot;{{ old('address', $university-&gt;profile-&gt;address) }}&quot; required&gt;&#10;&#10;    @if ($errors-&gt;has('address'))&#10;        &lt;span class=&quot;invalid-feedback&quot;&gt;&lt;strong&gt;{{ $errors-&gt;first('address') }}&lt;/strong&gt;&lt;/span&gt;&#10;    @endif&#10;&lt;/div&gt;" description="Make bootstrap 4 form group" toReformat="true" toShortenFQNames="true">
+  <template name="bootinput" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$FIELD$&quot; class=&quot;col-form-label&quot;&gt;{{ __('$LABEL$') }}&lt;/label&gt;&#10;&#10;    &lt;input &#10;            type=&quot;text&quot;&#10;            id=&quot;$FIELD$&quot; &#10;            name=&quot;$FIELD$&quot;&#10;            class=&quot;form-control{{ $errors-&gt;has('$FIELD$') ? ' is-invalid' : '' }}&quot; &#10;            value=&quot;{{ old('$FIELD$') }}&quot;&#10;            required&#10;    &gt;&#10;&#10;    @if ($errors-&gt;has('$FIELD$'))&#10;        &lt;span class=&quot;invalid-feedback&quot; role=&quot;alert&quot;&gt;&#10;            &lt;strong&gt;{{ $errors-&gt;first('$FIELD$') }}&lt;/strong&gt;&#10;        &lt;/span&gt;&#10;    @endif&#10;&lt;/div&gt;&#10;" description="Make bootstrap 4 form input" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="boottext" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$FIELD$&quot; class=&quot;col-form-label&quot;&gt;{{ __('$LABEL$') }}&lt;/label&gt;&#10;&#10;    &lt;textarea&#10;            id=&quot;$FIELD$&quot;&#10;            name=&quot;$FIELD$&quot;&#10;            rows=&quot;3&quot;&#10;            class=&quot;form-control{{ $errors-&gt;has('$FIELD$') ? ' is-invalid' : '' }}&quot;&#10;            required&#10;    &gt;{{ old('$FIELD$') }}&lt;/textarea&gt;&#10;&#10;    @if ($errors-&gt;has('$FIELD$'))&#10;        &lt;span class=&quot;invalid-feedback&quot; role=&quot;alert&quot;&gt;&#10;            &lt;strong&gt;{{ $errors-&gt;first('$FIELD$') }}&lt;/strong&gt;&#10;        &lt;/span&gt;&#10;    @endif&#10;&lt;/div&gt;&#10;" description="Make bootstrap 4 form textarea" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="bootselect" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$FIELD$&quot; class=&quot;col-form-label&quot;&gt;{{ __('$LABEL$') }}&lt;/label&gt;&#10;&#10;    &lt;select&#10;            id=&quot;$FIELD$&quot;&#10;            name=&quot;$FIELD$&quot;&#10;            class=&quot;form-control{{ $errors-&gt;has('$FIELD$') ? ' is-invalid' : '' }}&quot;&#10;    &gt;&#10;        @foreach ($items as $id =&gt; $name)&#10;            &lt;option value=&quot;{{ $id }}&quot;&gt;{{ $name }}&lt;/option&gt;&#10;        @endforeach&#10;    &lt;/select&gt;&#10;&#10;    @if ($errors-&gt;has('$FIELD$'))&#10;        &lt;span class=&quot;invalid-feedback&quot; role=&quot;alert&quot;&gt;&#10;            &lt;strong&gt;{{ $errors-&gt;first('$FIELD$') }}&lt;/strong&gt;&#10;        &lt;/span&gt;&#10;    @endif&#10;&lt;/div&gt;&#10;" description="Make bootstrap form select" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="bulminput" value="&lt;div class=&quot;field&quot;&gt;&#10;    &lt;label for=&quot;$FIELD$&quot; class=&quot;label&quot;&gt;{{ __('$LABEL$') }}&lt;/label&gt;&#10;    &lt;div class=&quot;control&quot;&gt;&#10;        &lt;input&#10;                id=&quot;$FIELD$&quot;&#10;                class=&quot;input{{ $errors-&gt;has('$FIELD$') ? ' is-danger' : '' }}&quot;&#10;                type=&quot;text&quot;&#10;                name=&quot;$FIELD$&quot;&#10;                placeholder=&quot;Type $FIELD$&quot;&#10;                value=&quot;{{ old('$FIELD$') }}&quot;&#10;        &gt;&#10;    &lt;/div&gt;&#10;&#10;    @if ($errors-&gt;has('$FIELD$'))&#10;        &lt;p class=&quot;help is-danger&quot;&gt;{{ $errors-&gt;first('$FIELD$') }}&lt;/p&gt;&#10;    @endif&#10;&lt;/div&gt;" description="Bulma input field" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
     </context>
