@@ -2090,8 +2090,4 @@
   <template name="wfsm:n" value="-webkit-font-smoothing:none;" description="-webkit-font-smoothing: none;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="@i" value="@import url($VAR0$);" description="@import url(...);" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
 </templateSet>
