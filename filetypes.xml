@@ -12,6 +12,7 @@
       <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping ext="docker" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="mmdb" type="PLAIN_TEXT" />
       <mapping ext="kill" type="PLAIN_TEXT" />
       <mapping ext="dockerfile" type="PLAIN_TEXT" />
       <mapping ext="lock" type="PLAIN_TEXT" />
