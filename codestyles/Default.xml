@@ -1,4 +1,7 @@
 <code_scheme name="Default" version="173">
+  <PHPCodeStyleSettings>
+    <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
+  </PHPCodeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
