@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
