@@ -2,18 +2,20 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="*.email.php" type="Blade" />
+      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
-      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping pattern=".env-testing" type="PLAIN_TEXT" />
+      <mapping pattern="php-fpm/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
       <mapping pattern="ArraySender" type="PLAIN_TEXT" />
+      <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="schedule" type="PLAIN_TEXT" />
-      <mapping ext="docker" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
       <mapping ext="mmdb" type="PLAIN_TEXT" />
+      <mapping ext="docker" type="PLAIN_TEXT" />
       <mapping ext="kill" type="PLAIN_TEXT" />
       <mapping ext="dockerfile" type="PLAIN_TEXT" />
       <mapping ext="lock" type="PLAIN_TEXT" />
