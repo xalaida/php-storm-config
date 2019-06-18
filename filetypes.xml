@@ -7,6 +7,7 @@
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
+      <mapping pattern="data" type="PLAIN_TEXT" />
       <mapping pattern=".env-testing" type="PLAIN_TEXT" />
       <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
       <mapping pattern="ArraySender" type="PLAIN_TEXT" />
