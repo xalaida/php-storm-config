@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="test" value="/** @test */&#10;function it_$NAME$()&#10;{&#10;    $END$&#10;}" description="Make a single test function" toReformat="true" toShortenFQNames="true">
+  <template name="test" value="/** @test */&#10;public function it_$NAME$(): void&#10;{&#10;    $END$&#10;}" description="Make a single test function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
