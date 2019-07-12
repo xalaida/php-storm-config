@@ -3,7 +3,4 @@
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="meta" value="&lt;meta&gt;" description="&lt;meta&gt;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
 </templateSet>
