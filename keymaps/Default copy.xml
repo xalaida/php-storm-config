@@ -51,6 +51,9 @@
   </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
+  <action id="ImportSettings">
+    <keyboard-shortcut first-keystroke="close_bracket" />
+  </action>
   <action id="IncrementWindowHeight" />
   <action id="Jdbc.OpenEditor.DDL">
     <mouse-shortcut keystroke="control button1" />
