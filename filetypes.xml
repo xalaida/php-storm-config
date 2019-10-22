@@ -4,22 +4,22 @@
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern=".env.production" type="PLAIN_TEXT" />
-      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern="php-fpm/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
-      <mapping pattern=".env.local" type="PLAIN_TEXT" />
-      <mapping pattern="data" type="PLAIN_TEXT" />
-      <mapping pattern=".env-testing" type="PLAIN_TEXT" />
-      <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="ArraySender" type="PLAIN_TEXT" />
+      <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
       <mapping pattern="schedule" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="data" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
+      <mapping pattern=".env-testing" type="PLAIN_TEXT" />
+      <mapping pattern="ArraySender" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production" type="PLAIN_TEXT" />
+      <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping ext="docker" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
       <mapping ext="mmdb" type="PLAIN_TEXT" />
