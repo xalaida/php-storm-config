@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="*.email.php" type="Blade" />
+      <mapping pattern="prod/nginx/default" type="PLAIN_TEXT" />
       <mapping pattern="selenium/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="stub" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
