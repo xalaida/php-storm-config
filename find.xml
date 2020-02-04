@@ -18,7 +18,7 @@
     <mask>!*.scss</mask>
     <mask>*.scss</mask>
     <mask>*.js</mask>
-    <mask>*.blade.php</mask>
     <mask>*.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
