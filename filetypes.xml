@@ -12,6 +12,7 @@
       <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="php-cli/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="stub" type="PLAIN_TEXT" />
       <mapping pattern="artisan" type="PLAIN_TEXT" />
       <mapping pattern="gateway/docker/development/nginx/Dockerfile" type="PLAIN_TEXT" />
