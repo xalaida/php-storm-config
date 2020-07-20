@@ -9,19 +9,19 @@
       <mapping pattern="centrifugo/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
       <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
+      <mapping pattern="production/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="php-cli/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="stub" type="PLAIN_TEXT" />
       <mapping pattern="artisan" type="PLAIN_TEXT" />
-      <mapping pattern="gateway/docker/development/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="production/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="data" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="gateway/docker/development/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
       <mapping pattern=".env-testing" type="PLAIN_TEXT" />
       <mapping pattern="ArraySender" type="PLAIN_TEXT" />
