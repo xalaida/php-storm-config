@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern=".php_cs.dist" type="PHP" />
@@ -31,19 +31,16 @@
       <mapping ext="sqlite" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="php_cs" approved="true" type="PHP" />
+      <removed_mapping pattern="*.php_cs.dist" approved="true" type="PHP" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping pattern="*?.php_cs.dist" approved="true" type="PHP" />
       <removed_mapping pattern=".php_cs.dist" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="?.php_cs.dist" approved="true" type="PHP" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="*.php_cs.dist" approved="true" type="PHP" />
-      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
-      <removed_mapping ext="makefile" approved="true" type="textmate" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="php_cs" approved="true" type="PHP" />
-      <removed_mapping pattern="*?.php_cs.dist" approved="true" type="PHP" />
-      <removed_mapping ext="snakefile" approved="true" type="textmate" />
     </extensionMap>
   </component>
 </application>
