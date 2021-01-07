@@ -52,4 +52,10 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="pmet" value="private function $NAME$()&#10;{&#10;    $END$&#10;}" description="Make a private class function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>

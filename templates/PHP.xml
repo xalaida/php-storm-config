@@ -1,5 +1,0 @@
-<templateSet group="PHP">
-  <template name="thr" value="throw new $END$" description="throw new" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-</templateSet>
