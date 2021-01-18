@@ -1,0 +1,6 @@
+<application>
+  <component name="UISettings">
+    <option name="PRESENTATION_MODE_FONT_SIZE" value="18" />
+    <option name="SHOW_NAVIGATION_BAR" value="false" />
+  </component>
+</application>

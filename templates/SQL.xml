@@ -1,0 +1,7 @@
+<templateSet group="SQL">
+  <template name="ins" value="insert into $table$ ($columns$) values ($END$);" description="insert rows into a table" toReformat="true" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="columns" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
