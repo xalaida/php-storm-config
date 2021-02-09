@@ -12,6 +12,7 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Diff" />
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="shift ctrl f4" />
@@ -29,6 +30,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="DecrementWindowHeight" />
+  <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="Editor Redo">
@@ -38,10 +40,13 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
-  <action id="EditorSelectWord" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Git.Stage.Add" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
@@ -100,5 +105,6 @@
   <action id="XDebugger.CopyWatch">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
+  <action id="hg4idea.add" />
   <action id="openAssertEqualsDiff" />
 </keymap>
