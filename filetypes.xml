@@ -16,6 +16,7 @@
       <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping pattern="stub" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
       <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
