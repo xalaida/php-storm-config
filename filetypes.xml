@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
+      <mapping pattern="download" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
@@ -16,8 +18,12 @@
       <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping pattern="stub" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
+      <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="artisan" type="PLAIN_TEXT" />
       <mapping pattern="ArraySender" type="PLAIN_TEXT" />
       <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
@@ -28,11 +34,12 @@
       <mapping ext="kill" type="PLAIN_TEXT" />
       <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="php_cs" approved="true" type="PHP" />
       <removed_mapping pattern="*.php_cs.dist" approved="true" type="PHP" />
