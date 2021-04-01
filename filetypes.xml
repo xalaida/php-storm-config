@@ -3,6 +3,8 @@
     <extensionMap>
       <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
       <mapping pattern="download" type="AUTO_DETECTED" />
+      <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="recruiters/docker/dev/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
