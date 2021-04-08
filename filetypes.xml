@@ -24,9 +24,9 @@
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
       <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
-      <mapping pattern="ArraySender" type="PLAIN_TEXT" />
-      <mapping pattern="artisan" type="PLAIN_TEXT" />
       <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="artisan" type="PLAIN_TEXT" />
+      <mapping pattern="ArraySender" type="PLAIN_TEXT" />
       <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
       <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
       <mapping ext="docker" type="PLAIN_TEXT" />
