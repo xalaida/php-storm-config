@@ -18,9 +18,9 @@
     <mask>*.scss</mask>
     <mask>*.vue</mask>
     <mask>*.js</mask>
-    <mask>*.blade.php</mask>
     <mask>*.email.php</mask>
     <mask>*.json</mask>
+    <mask>*.blade.php</mask>
     <mask>*.php</mask>
   </component>
 </application>

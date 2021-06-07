@@ -11,3 +11,9 @@ One Dark vivid (appears after installation the One Dark theme plugin)
 ## Plugins
 - One Dark theme
 - Php Inspections (EA Extended)
+
+## Keymap
+CTRL + D = Add Selection for Next occurence
+ALT + C = Toggle case
+CTRL + SHIFT + D = Duplicate Line or Selection
+CTRL + ALT + A = Extend Selection
