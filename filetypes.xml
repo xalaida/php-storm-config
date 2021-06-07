@@ -7,8 +7,8 @@
       <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="download" type="AUTO_DETECTED" />
       <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="postgres/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="recruiters/docker/dev/app/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="postgres/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
@@ -27,12 +27,11 @@
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
-      <mapping pattern="ArraySender" type="PLAIN_TEXT" />
-      <mapping pattern="artisan" type="PLAIN_TEXT" />
       <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="artisan" type="PLAIN_TEXT" />
+      <mapping pattern="ArraySender" type="PLAIN_TEXT" />
       <mapping pattern=".gitgnore" type="PLAIN_TEXT" />
       <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
       <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
