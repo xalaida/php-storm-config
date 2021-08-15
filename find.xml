@@ -20,7 +20,7 @@
     <mask>*.js</mask>
     <mask>*.email.php</mask>
     <mask>*.json</mask>
-    <mask>*.blade.php</mask>
     <mask>*.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>

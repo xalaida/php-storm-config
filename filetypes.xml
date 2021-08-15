@@ -1,40 +1,40 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
-      <mapping pattern="node/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="nginx/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="download" type="AUTO_DETECTED" />
-      <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="postgres/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="nginx/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
+      <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="recruiters/docker/dev/app/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="node/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern=".php_cs.dist" type="PHP" />
-      <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern=".env.example" type="PLAIN_TEXT" />
-      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern="data" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="ArraySender" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern="php-fpm/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="centrifugo/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern=".env-testing" type="PLAIN_TEXT" />
-      <mapping pattern="selenium/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
-      <mapping pattern="schedule" type="PLAIN_TEXT" />
-      <mapping pattern="stub" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
-      <mapping pattern=".env.prod" type="PLAIN_TEXT" />
-      <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
-      <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="artisan" type="PLAIN_TEXT" />
-      <mapping pattern="ArraySender" type="PLAIN_TEXT" />
       <mapping pattern=".gitgnore" type="PLAIN_TEXT" />
+      <mapping pattern="stub" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
+      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern=".env-testing" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod" type="PLAIN_TEXT" />
+      <mapping pattern="selenium/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="artisan" type="PLAIN_TEXT" />
+      <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping ext="docker" type="PLAIN_TEXT" />
       <mapping ext="myd" type="PLAIN_TEXT" />
       <mapping ext="mmdb" type="PLAIN_TEXT" />
@@ -52,6 +52,7 @@
       <removed_mapping pattern="*.php_cs.dist" approved="true" type="PHP" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping pattern="*?.php_cs.dist" approved="true" type="PHP" />
+      <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
       <removed_mapping pattern=".php_cs.dist" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="?.php_cs.dist" approved="true" type="PHP" />
     </extensionMap>
