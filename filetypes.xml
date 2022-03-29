@@ -13,6 +13,7 @@
       <mapping pattern="node/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="prod/api/gateway/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="echo-server/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="base/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="data" type="PLAIN_TEXT" />
