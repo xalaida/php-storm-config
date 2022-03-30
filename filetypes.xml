@@ -2,9 +2,12 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="s3/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="schedule/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="download" type="AUTO_DETECTED" />
       <mapping pattern="postgres/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="queue/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="nginx/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="crontab" type="AUTO_DETECTED" />
       <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
       <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
