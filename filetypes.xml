@@ -14,6 +14,7 @@
       <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="recruiters/docker/dev/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="certbot/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="prod/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="node/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="prod/api/gateway/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="echo-server/Dockerfile" type="AUTO_DETECTED" />
@@ -34,6 +35,7 @@
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod.example" type="PLAIN_TEXT" />
       <mapping pattern=".docker/dev/app/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
