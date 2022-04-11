@@ -46,6 +46,7 @@
       <mapping pattern=".docker/prod/gateway/proxy/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="artisan" type="PLAIN_TEXT" />
       <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping ext="d" type="PLAIN_TEXT" />
