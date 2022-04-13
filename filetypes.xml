@@ -12,6 +12,7 @@
       <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
       <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="salo" type="AUTO_DETECTED" />
       <mapping pattern="recruiters/docker/dev/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="certbot/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="prod/app/Dockerfile" type="AUTO_DETECTED" />
