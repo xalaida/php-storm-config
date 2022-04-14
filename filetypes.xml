@@ -12,8 +12,10 @@
       <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
       <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="salo" type="AUTO_DETECTED" />
       <mapping pattern="recruiters/docker/dev/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="certbot/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="prod/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="node/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="prod/api/gateway/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="echo-server/Dockerfile" type="AUTO_DETECTED" />
@@ -34,6 +36,7 @@
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod.example" type="PLAIN_TEXT" />
       <mapping pattern=".docker/dev/app/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
@@ -41,8 +44,10 @@
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
       <mapping pattern="selenium/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern=".docker/prod/gateway/proxy/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="artisan" type="PLAIN_TEXT" />
       <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping ext="d" type="PLAIN_TEXT" />
@@ -55,6 +60,8 @@
       <mapping ext="ph" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
+      <mapping ext="docker/prod/proxy/dockerfile" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
