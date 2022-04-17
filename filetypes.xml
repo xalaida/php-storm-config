@@ -10,6 +10,7 @@
       <mapping pattern="nginx/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="stubs/nuxt2/dev/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="crontab" type="AUTO_DETECTED" />
+      <mapping pattern="cli/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
       <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
