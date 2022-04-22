@@ -12,6 +12,7 @@
       <mapping pattern="crontab" type="AUTO_DETECTED" />
       <mapping pattern="cli/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
+      <mapping pattern="df9078dca7c435b3e63cbee6b20c0007" type="AUTO_DETECTED" />
       <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="secrets/db_password" type="AUTO_DETECTED" />
