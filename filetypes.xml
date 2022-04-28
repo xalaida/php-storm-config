@@ -49,6 +49,7 @@
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
       <mapping pattern="selenium/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env.back" type="PLAIN_TEXT" />
       <mapping pattern=".docker/prod/gateway/proxy/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="artisan" type="PLAIN_TEXT" />
       <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
