@@ -27,7 +27,7 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.vue</mask>
-    <mask>*.json</mask>
     <mask>*.php</mask>
+    <mask>*.json</mask>
   </component>
 </application>
