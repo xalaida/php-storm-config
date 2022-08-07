@@ -30,6 +30,7 @@
       <mapping pattern="data" type="PLAIN_TEXT" />
       <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ArraySender" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern="php-fpm/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="centrifugo/Dockerfile" type="PLAIN_TEXT" />
