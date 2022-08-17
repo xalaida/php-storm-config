@@ -26,6 +26,7 @@
       <mapping pattern="echo-server/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="base/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
+      <mapping pattern="random" type="Image" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="data" type="PLAIN_TEXT" />
       <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
