@@ -106,6 +106,10 @@
     <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift alt j" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="XDebugger.CopyWatch">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
