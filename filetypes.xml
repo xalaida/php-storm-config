@@ -1,60 +1,60 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="s3/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="schedule/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="stubs/php-fpm/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="download" type="AUTO_DETECTED" />
       <mapping pattern="postgres/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="queue/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="nginx/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="stubs/nuxt2/dev/app/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="crontab" type="AUTO_DETECTED" />
       <mapping pattern="cli/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
-      <mapping pattern="df9078dca7c435b3e63cbee6b20c0007" type="AUTO_DETECTED" />
-      <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="secrets/db_password" type="AUTO_DETECTED" />
       <mapping pattern="db_password" type="AUTO_DETECTED" />
       <mapping pattern="salo" type="AUTO_DETECTED" />
-      <mapping pattern="recruiters/docker/dev/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="certbot/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="echo-server/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="s3/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="stubs/php-fpm/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="download" type="AUTO_DETECTED" />
+      <mapping pattern="nginx/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="stubs/nuxt2/dev/app/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="crontab" type="AUTO_DETECTED" />
+      <mapping pattern="df9078dca7c435b3e63cbee6b20c0007" type="AUTO_DETECTED" />
+      <mapping pattern="mysql/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="gateway/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="recruiters/docker/dev/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="prod/app/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="node/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="prod/api/gateway/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="echo-server/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="base/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern="random" type="Image" />
       <mapping pattern=".php_cs.dist" type="PHP" />
-      <mapping pattern="data" type="PLAIN_TEXT" />
-      <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="ArraySender" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
+      <mapping pattern=".gitgnore" type="PLAIN_TEXT" />
+      <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
+      <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
+      <mapping pattern=".env-testing" type="PLAIN_TEXT" />
+      <mapping pattern="selenium/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env.back" type="PLAIN_TEXT" />
+      <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
+      <mapping pattern="data" type="PLAIN_TEXT" />
+      <mapping pattern="admin-nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="php-fpm/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="centrifugo/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern=".gitgnore" type="PLAIN_TEXT" />
       <mapping pattern="stub" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".env.prod.example" type="PLAIN_TEXT" />
       <mapping pattern=".docker/dev/app/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="Premium/OrderPremiumApplicationsRequest" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
-      <mapping pattern=".env-testing" type="PLAIN_TEXT" />
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
-      <mapping pattern="selenium/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="docker/php/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern=".env.back" type="PLAIN_TEXT" />
       <mapping pattern=".docker/prod/gateway/proxy/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="artisan" type="PLAIN_TEXT" />
-      <mapping pattern="ConcertsController" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="schedule" type="PLAIN_TEXT" />
@@ -75,6 +75,7 @@
       <mapping ext="ini-production" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="docker/prod/proxy/dockerfile" type="PLAIN_TEXT" />
+      <mapping ext="neon" type="YAML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
