@@ -59,22 +59,21 @@
       <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="schedule" type="PLAIN_TEXT" />
       <mapping pattern=".env.backup" type="PLAIN_TEXT" />
-      <mapping ext="d" type="PLAIN_TEXT" />
-      <mapping ext="docker" type="PLAIN_TEXT" />
-      <mapping ext="myd" type="PLAIN_TEXT" />
-      <mapping ext="mmdb" type="PLAIN_TEXT" />
-      <mapping ext="default" type="PLAIN_TEXT" />
-      <mapping ext="kill" type="PLAIN_TEXT" />
       <mapping ext="ini-development" type="PLAIN_TEXT" />
-      <mapping ext="stub" type="PLAIN_TEXT" />
-      <mapping ext="lock" type="PLAIN_TEXT" />
-      <mapping ext="sqlite" type="PLAIN_TEXT" />
-      <mapping ext="ph" type="PLAIN_TEXT" />
-      <mapping ext="log" type="PLAIN_TEXT" />
-      <mapping ext="key" type="PLAIN_TEXT" />
-      <mapping ext="ini-production" type="PLAIN_TEXT" />
-      <mapping ext="template" type="PLAIN_TEXT" />
+      <mapping ext="mmdb" type="PLAIN_TEXT" />
+      <mapping ext="myd" type="PLAIN_TEXT" />
       <mapping ext="docker/prod/proxy/dockerfile" type="PLAIN_TEXT" />
+      <mapping ext="default" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
+      <mapping ext="d" type="PLAIN_TEXT" />
+      <mapping ext="ini-production" type="PLAIN_TEXT" />
+      <mapping ext="stub" type="PLAIN_TEXT" />
+      <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="docker" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
+      <mapping ext="kill" type="PLAIN_TEXT" />
+      <mapping ext="ph" type="PLAIN_TEXT" />
       <mapping ext="neon" type="YAML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
