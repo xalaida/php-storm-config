@@ -4,8 +4,8 @@
     <option name="FONT_SIZE" value="14" />
     <option name="FONT_SIZE_2D" value="14.0" />
     <option name="FONT_FAMILY" value="Operator Mono" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="Medium" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="Medium" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Book" />
+    <option name="FONT_BOLD_SUB_FAMILY" />
     <option name="LINE_SPACING" value="1.5" />
   </component>
 </application>
