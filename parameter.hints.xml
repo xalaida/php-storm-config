@@ -1,12 +1,13 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <disabledLanguages>
-      <language id="TypeScript" />
-      <language id="Angular2Html" />
-      <language id="JavaScript" />
-      <language id="Vue" />
-      <language id="PHP" />
-      <language id="SQL" />
-    </disabledLanguages>
+    <option id="angular.show.names.for.all.args" value="true" />
+    <option id="sql.show.column.names.for.set.operations" value="true" />
+    <option id="js.param.hints.show.names.for.all.args" value="true" />
+    <option id="sql.show.column.names.for.asterisk" value="true" />
+    <option id="vuejs.show.names.for.all.args" value="true" />
+    <option id="sql.show.column.names.in.insert.values" value="true" />
+    <option id="js.only.show.names.for.all.args" value="true" />
+    <option id="php.show.names.for.all.args" value="true" />
+    <option id="sql.show.column.names.in.select" value="true" />
   </component>
 </application>
