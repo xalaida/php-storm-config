@@ -3,6 +3,7 @@
     <option name="codeVisionGroupToPosition">
       <map>
         <entry key="inheritors" value="Default" />
+        <entry key="llm" value="Default" />
         <entry key="references" value="Default" />
         <entry key="vcs.code.vision" value="Default" />
       </map>
@@ -31,6 +32,16 @@
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="" />
+    <settingsMapElement>
+      <SQL.sql.join.cardinality.hints>
+        <Settings>
+          <option name="showForFullJoin" value="true" />
+          <option name="showForInnerJoin" value="true" />
+          <option name="showForLeftJoin" value="true" />
+          <option name="showForRightJoin" value="true" />
+        </Settings>
+      </SQL.sql.join.cardinality.hints>
+    </settingsMapElement>
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
