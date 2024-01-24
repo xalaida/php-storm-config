@@ -5,4 +5,7 @@
   <component name="ShowUsagesSettings">
     <option name="IS_FILTER_DUPLICATED_LINE" value="false" />
   </component>
+  <component name="UsageFilteringRuleState">
+    <option value="com.intellij.usages.impl.rules.WriteAccessFilteringRule" />
+  </component>
 </application>
