@@ -9,4 +9,11 @@
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="ide.images.show.chessboard" value="true" />
   </component>
+  <component name="StatusBar">
+    <option name="widgets">
+      <map>
+        <entry key="git" value="true" />
+      </map>
+    </option>
+  </component>
 </application>
