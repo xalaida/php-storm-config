@@ -26,6 +26,7 @@
       <mapping pattern="echo-server/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="base/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
+      <mapping pattern="alert-notification.njk" type="HTML" />
       <mapping pattern="random" type="Image" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="data" type="PLAIN_TEXT" />
@@ -79,6 +80,7 @@
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="kill" type="PLAIN_TEXT" />
       <mapping ext="ph" type="PLAIN_TEXT" />
+      <mapping ext="njk" type="XHTML" />
       <mapping ext="neon" type="YAML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
