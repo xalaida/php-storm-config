@@ -27,6 +27,7 @@
       <mapping pattern="base/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="*.email.php" type="Blade" />
       <mapping pattern="alert-notification.njk" type="HTML" />
+      <mapping pattern="daily-alerts.njk" type="HTML" />
       <mapping pattern="random" type="Image" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="data" type="PLAIN_TEXT" />
