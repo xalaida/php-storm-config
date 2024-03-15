@@ -47,6 +47,7 @@
       <mapping pattern="dev/nginx/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".env.prod.example" type="PLAIN_TEXT" />
       <mapping pattern=".docker/dev/app/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".env.ci" type="PLAIN_TEXT" />
