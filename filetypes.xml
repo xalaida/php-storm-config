@@ -40,6 +40,7 @@
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping pattern="centrifugo/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitgnore" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dist" type="PLAIN_TEXT" />
       <mapping pattern="stub" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="ImportArticles" type="PLAIN_TEXT" />
