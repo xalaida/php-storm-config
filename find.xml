@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="Project 'data-capture-create'" />
+    <option name="defaultScopeName" value="Project 'data-capture-create'" />
+    <option name="SEARCH_SCOPE" value="Project 'data-capture-create'" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
