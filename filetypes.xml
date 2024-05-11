@@ -4,6 +4,7 @@
       <mapping pattern="schedule/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="postgres/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="queue/Dockerfile" type="AUTO_DETECTED" />
+      <mapping pattern="text" type="AUTO_DETECTED" />
       <mapping pattern="cli/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="presentation-proforientation" type="AUTO_DETECTED" />
       <mapping pattern="secrets/db_password" type="AUTO_DETECTED" />
