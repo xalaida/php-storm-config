@@ -33,4 +33,12 @@
       </csv-format>
     </csv-formats>
   </component>
+  <component name="ScriptedLoadersAssociations">
+    <extensions>
+      <set>
+        <option value="xls" />
+        <option value="xlsx" />
+      </set>
+    </extensions>
+  </component>
 </application>
