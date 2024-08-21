@@ -6,12 +6,12 @@
           <value>
             <AIAssistantStoredPrompt>
               <option name="builtIn" value="true" />
-              <option name="content" value="Find potential problems in $SELECTION" />
               <option name="hasCustomTitle" value="true" />
               <option name="id" value="builtin_findproblems" />
               <option name="name" value="Find Problems" />
-              <option name="priority" value="30" />
+              <option name="priority" value="100500" />
               <option name="showInInput" value="false" />
+              <option name="content" value="Find potential problems in $SELECTION" />
             </AIAssistantStoredPrompt>
           </value>
         </entry>
@@ -19,13 +19,13 @@
           <value>
             <AIAssistantStoredPrompt>
               <option name="builtIn" value="true" />
-              <option name="content" value="$SELECTION" />
               <option name="hasCustomTitle" value="true" />
               <option name="id" value="builtin_newchat" />
               <option name="name" value="New Chat Using Selection" />
-              <option name="priority" value="20" />
+              <option name="priority" value="100500" />
               <option name="showInInput" value="false" />
               <option name="waitForInput" value="true" />
+              <option name="content" value="$SELECTION" />
             </AIAssistantStoredPrompt>
           </value>
         </entry>
