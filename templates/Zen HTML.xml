@@ -3,4 +3,12 @@
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="link:print" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;$STYLE$.css&quot; media=&quot;print&quot;&gt;" description="&lt;link rel=&quot;stylesheet&quot; href=&quot;print.css&quot; media=&quot;print&quot;&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="STYLE" expression="" defaultValue="&quot;print&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="TSX_HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
