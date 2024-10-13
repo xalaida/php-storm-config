@@ -1,3 +1,5 @@
 <templateSet group="Zen CSS">
-  <template name="tt:u" value="text-transform:uppercase;" description="text-transform:uppercase;" toReformat="true" toShortenFQNames="true" />
+  <template name="tt:u" value="text-transform:uppercase;" description="text-transform:uppercase;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
