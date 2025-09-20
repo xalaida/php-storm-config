@@ -1,0 +1,29 @@
+<code_scheme name="Default" version="173">
+  <PHPCodeStyleSettings>
+    <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
+  </PHPCodeStyleSettings>
+  <VueCodeStyleSettings>
+    <option name="UNIFORM_INDENT" value="false" />
+  </VueCodeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JavaScript">
+    <option name="SPACE_AROUND_EQUALITY_OPERATORS" value="false" />
+    <option name="SPACE_BEFORE_COLON" value="false" />
+    <option name="SPACE_AFTER_COLON" value="false" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Vue">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>

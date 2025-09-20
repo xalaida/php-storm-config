@@ -1,0 +1,33 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project Files" />
+    <option name="defaultScopeName" value="Project Files" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
+    <mask>*.properties</mask>
+    <mask>*.jsp</mask>
+    <mask>*.java</mask>
+    <mask>*.as</mask>
+    <mask>*.mxml</mask>
+    <mask>.php</mask>
+    <mask>.scss</mask>
+    <mask>.vue</mask>
+    <mask>!*.scss</mask>
+    <mask>*.scss</mask>
+    <mask>*.email.php</mask>
+    <mask>*.js</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.php4</mask>
+    <mask>*.phtml</mask>
+    <mask>*.php5</mask>
+    <mask>*.ctp</mask>
+    <mask>*.hphp</mask>
+    <mask>*.module</mask>
+    <mask>*.inc</mask>
+    <mask>*.vue</mask>
+    <mask>*.json</mask>
+    <mask>*.php</mask>
+    <mask>*.blade.php</mask>
+  </component>
+</application>
