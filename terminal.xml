@@ -1,5 +1,6 @@
 <application>
   <component name="ReworkedTerminalUsage"><![CDATA[{
-  "enterKeyPressedTimes": 16
+  "feedbackNotificationShown": true,
+  "enterKeyPressedTimes": 20
 }]]></component>
 </application>
