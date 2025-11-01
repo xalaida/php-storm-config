@@ -9,9 +9,6 @@
       </map>
     </option>
   </component>
-  <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="0" />
-  </component>
   <component name="DeclarativeInlayHintsSettings">
     <option name="providerIdToEnabled">
       <map>
