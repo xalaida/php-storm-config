@@ -531,6 +531,8 @@
         <option value="LanguageTool.UK.ZNIMATY_ZHYTLO" />
         <option value="LanguageTool.UK.po_miri" />
         <option value="LanguageTool.UK.ODYN_DRUGOGO" />
+        <option value="LanguageTool.EN.OXFORD_SPELLING_Z_NOT_S" />
+        <option value="LanguageTool.EN.OXFORD_SPELLING_GRAM" />
       </set>
     </option>
     <option name="userEnabledRules">
