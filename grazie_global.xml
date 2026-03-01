@@ -220,6 +220,7 @@
         <option value="LanguageTool.UK.PRODUCT_KHARCHUVANNIA" />
         <option value="LanguageTool.UK.a_mizh_tym" />
         <option value="LanguageTool.UK.Z_LYSHNIM" />
+        <option value="LanguageTool.EN.OXFORD_SPELLING_Z_NOT_S" />
         <option value="LanguageTool.UK.ZA_RAHUNOK" />
         <option value="LanguageTool.UK.VERB_SUBSTANDARD_FORMS" />
         <option value="LanguageTool.UK.UK_MIXED_ALPHABETS" />
@@ -379,6 +380,7 @@
         <option value="LanguageTool.UK.v_obtyazhku" />
         <option value="LanguageTool.UK.dlya_vydu" />
         <option value="LanguageTool.UK.v_naiblyzhchyi_chas" />
+        <option value="LanguageTool.EN.OXFORD_SPELLING_GRAM" />
         <option value="LanguageTool.UK.v_roznycuy" />
         <option value="LanguageTool.UK.vybachaty_kogo" />
         <option value="LanguageTool.UK.ZAKLYUCHATY_VS_UKLADADY" />
@@ -531,8 +533,6 @@
         <option value="LanguageTool.UK.ZNIMATY_ZHYTLO" />
         <option value="LanguageTool.UK.po_miri" />
         <option value="LanguageTool.UK.ODYN_DRUGOGO" />
-        <option value="LanguageTool.EN.OXFORD_SPELLING_Z_NOT_S" />
-        <option value="LanguageTool.EN.OXFORD_SPELLING_GRAM" />
       </set>
     </option>
     <option name="userEnabledRules">

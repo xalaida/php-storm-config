@@ -9,6 +9,7 @@
     <entry key="debugger.watches.in.variables" value="false" source="SYSTEM" />
     <entry key="ide.images.show.chessboard" value="true" source="SYSTEM" />
     <entry key="moved.to.new.ui" value="true" source="SYSTEM" />
+    <entry key="switched.from.classic.to.islands" value="false" source="SYSTEM" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
